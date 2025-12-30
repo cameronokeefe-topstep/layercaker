@@ -12,5 +12,6 @@ export default async function Page({
     params: await params,
   });
 
-  return page?.content ? <PageBuilder content={page.content} /> : null;
+  return page?.content ? <PageBuilder documentId={page._id}
+      documentType={page._type} content={page.content} /> : null;
 }
