@@ -12,7 +12,9 @@ import { featuresType } from "./blocks/featuresType";
 import { heroType } from "./blocks/heroType";
 import { splitImageType } from "./blocks/splitImageType";
 import { siteSettingsType } from "./siteSettingsType";
+import { seoType } from "./seoType";
+import { redirectType } from "./redirectType";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [blockContentType, categoryType, postType, authorType, pageType, pageBuilderType, faqType, faqsType, featuresType, heroType, splitImageType, siteSettingsType],
+  types: [blockContentType, categoryType, postType, authorType, pageType, pageBuilderType, faqType, faqsType, featuresType, heroType, splitImageType, siteSettingsType, seoType, redirectType],
 }
