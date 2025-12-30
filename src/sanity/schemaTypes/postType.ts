@@ -55,6 +55,10 @@ export const postType = defineType({
       name: 'body',
       type: 'blockContent',
     }),
+    defineField({
+      name: "seo",
+      type: "seo",
+    }),
   ],
   preview: {
     select: {
