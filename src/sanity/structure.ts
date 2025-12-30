@@ -23,6 +23,6 @@ export const structure: StructureResolver = (S) =>
       S.documentTypeListItem('redirect').title('Redirects'),
       S.divider(),
       ...S.documentTypeListItems().filter(
-        (item) => item.getId() && !['post', 'category', 'author', "page", "faq", "siteSettings"].includes(item.getId()!),
+        (item) => item.getId() && !['post', 'category', 'author', "page", "faq", "siteSettings", "redirect"].includes(item.getId()!),
       ),
     ])
