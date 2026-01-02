@@ -14,7 +14,8 @@ import { splitImageType } from "./blocks/splitImageType";
 import { siteSettingsType } from "./siteSettingsType";
 import { seoType } from "./seoType";
 import { redirectType } from "./redirectType";
+import { socialType } from "./socialTypes";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [blockContentType, categoryType, postType, authorType, pageType, pageBuilderType, faqType, faqsType, featuresType, heroType, splitImageType, siteSettingsType, seoType, redirectType],
+  types: [blockContentType, categoryType, postType, authorType, pageType, pageBuilderType, faqType, faqsType, featuresType, heroType, splitImageType, siteSettingsType, seoType, redirectType, socialType],
 }
